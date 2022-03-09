@@ -47,3 +47,21 @@ const team = [
         image: 'barbara-ramos-graphic-designer.jpg',
     },
 ];
+
+/* MILESTONE 1:
+stampare su console le informazioni di nome, ruolo e la stringa della foto */
+//*STAMPO IN CONSOLE TUTTI GLI ELEMENTI DELL'ARRAY 
+console.log(team);
+
+//*STAMPO IN CONSOLE TUTTI I SINGOLI ELEMENTI DELL'ARRAY 
+console.log(team[0]);
+console.log(team[1]);
+console.log(team[2]);
+console.log(team[3]);
+console.log(team[4]);
+console.log(team[5]);
+
+//*STAMPO IN CONSOLE CON UN "CICLO IN" TUTTI I SINGOLI ELEMENTI DELL'ARRAY 
+for (const chiave in team) {
+    console.log(team);
+}
