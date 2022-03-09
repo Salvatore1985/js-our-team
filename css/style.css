@@ -1,0 +1,23 @@
+header{
+    height: 5rem;
+   background:linear-gradient(#5c65c9 ,#2c2626);
+}
+
+header h1{
+    line-height: 5rem;
+    vertical-align: middle;
+    color: rgba(0, 255, 255, 0.603);
+}
+
+main{
+    height: calc(100vh - 5rem);
+    background:linear-gradient(#cccaca, #2c3597);
+
+}
+
+
+.my-card{
+    width: 100px;
+    height: 200px;
+    background-color:rgb(199, 193, 190) ;
+}

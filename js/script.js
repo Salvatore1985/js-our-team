@@ -65,3 +65,21 @@ console.log(team[5]);
 for (const chiave in team) {
     console.log(team);
 }
+
+
+
+/* createGridSquare = (myClass) */
+
+
+/**
+ * Arrow function che restituisce un div di square sotto forma di elemento del DOM
+ * @param {*} myClass la classe che vogliamo aggiungere al "div"
+ * @returns 
+ */
+const createGridSquare = (myClass) => {
+    const currentElement = document.createElement("div");
+    // inseriamo tutto il necessario per ogni square
+
+    currentElement.classList.add(myClass);
+    return currentElement;
+};
