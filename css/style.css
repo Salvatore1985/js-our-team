@@ -20,7 +20,8 @@ main{
     border-radius: 2rem;
     width: 20rem;
     height: 30rem;
-    background:linear-gradient(#C7C1BE,#c7c1bec4, #2c3597)
+    background:linear-gradient(#C7C1BE,#c7c1bec4, #2c3597);
+    box-shadow: 8px 8px 2px 1px rgba(109, 109, 145, 0.5);
 }
 
 div.my-card div img{
