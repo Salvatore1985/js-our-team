@@ -66,8 +66,8 @@ console.log(team[5]);
 //*RECUPERO L'ELEMENTO DAL DOM
 const contentCardsElement = document.getElementById("content-cards");
 //*STAMPO IN CONSOLE CON UN "CICLO IN" TUTTI I SINGOLI ELEMENTI DELL'ARRAY 
-for (const chiave in team) {
-    /*     console.log(team); */
+/* for (const chiave in team) {
+ 
     contentCardsElement.innerHTML += ` <div class="my-card text-center  m-5">
     <div>
         <img class="img-fluid" src="img/${team[chiave].image}"alt="${team[chiave].name}">
@@ -75,6 +75,17 @@ for (const chiave in team) {
     <h3 class="py-3">${team[chiave].name}</h3>
     <p>${team[chiave].role}</p>
     </div>`;
+} */
+let card = "";
+for (let i = 0; i < team.length; i++) {
+    card = ` <div class="my-card text-center  m-5">
+    <div>
+        <img class="img-fluid" src="img/${team[chiave].image}"alt="${team[chiave].name}">
+    </div>
+    <h3 class="py-3">${team[chiave].name}</h3>
+    <p>${team[chiave].role}</p>
+    </div>`;
+
 }
-
-
+contentCardsElement.innerHTML += card;
+console.log(card);
