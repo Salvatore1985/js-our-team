@@ -78,26 +78,3 @@ for (const chiave in team) {
 }
 
 
-
-
-
-{/* <div class="my-card text-center  m-5">
-<div>
-    <img class="img-fluid" src="img/angela-caroll-chief-editor.jpg" alt="img-Angela">
-</div>
-<h3 class="py-3">nome</h3>
-<p>ruolo</p>
-</div> */}
-
-/**
- * Arrow function che restituisce un div  sotto forma di elemento del DOM
- * @param {*} myClass la classe che vogliamo aggiungere al "div"
- * @returns 
- */
-const createGridSquare = (myClass) => {
-    const currentElement = document.createElement("div");
-    // inseriamo tutto il necessario per ogni square
-
-    currentElement.classList.add(myClass);
-    return currentElement;
-};
