@@ -6,7 +6,7 @@ header{
 header h1{
     line-height: 5rem;
     vertical-align: middle;
-    color: rgba(0, 255, 255, 0.603);
+    color: rgb(12, 194, 194);
 }
 
 main{
@@ -17,7 +17,13 @@ main{
 
 
 .my-card{
-    width: 100px;
-    height: 200px;
-    background-color:rgb(199, 193, 190) ;
+    border-radius: 2rem;
+    width: 20rem;
+    height: 30rem;
+    background:linear-gradient(#C7C1BE,#c7c1bec4, #2c3597)
+}
+
+div.my-card div img{
+  
+   border-radius:2rem 2rem 0 0  ;
 }
