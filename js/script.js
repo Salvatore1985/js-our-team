@@ -76,14 +76,15 @@ const contentCardsElement = document.getElementById("content-cards");
     <p>${team[chiave].role}</p>
     </div>`;
 } */
+
 let card = "";
 for (let i = 0; i < team.length; i++) {
-    card = ` <div class="my-card text-center  m-5">
+    card += ` <div class="my-card text-center  m-5">
     <div>
-        <img class="img-fluid" src="img/${team[chiave].image}"alt="${team[chiave].name}">
+        <img class="img-fluid" src="img/${team[i].image}"alt="${team[i].name}">
     </div>
-    <h3 class="py-3">${team[chiave].name}</h3>
-    <p>${team[chiave].role}</p>
+    <h3 class="py-3">${team[i].name}</h3>
+    <p>${team[i].role}</p>
     </div>`;
 
 }
